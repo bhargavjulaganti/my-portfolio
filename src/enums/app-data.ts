@@ -249,7 +249,7 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
-            title: "Web-Based 3D IFC File Viewer",
+            title: "RMS One Stop",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
             githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
@@ -258,7 +258,7 @@ const PersonalProjects: ProjectSection = {
             year: 2022
         },
         {
-            title: "Customizable Multi-Select Dropdown",
+            title: "End to End Regression tests using Postman",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
             githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
             description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
@@ -267,7 +267,7 @@ const PersonalProjects: ProjectSection = {
             branch: "resource-tree-utility"
         },
         {
-            title: "Learning Management System",
+            title: "ADO Test Plan Standards",
             coverImagePath: AssetPaths.PROJECT_LMS_APP,
             githubLink: "https://github.com/dhruvilrathod/lms-asite",
             description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
@@ -275,7 +275,7 @@ const PersonalProjects: ProjectSection = {
             year: 2023
         },
         {
-            title: "Angular + NestJS Boilerplate",
+            title: "Earl Test Framework",
             coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
             githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
             description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
@@ -283,7 +283,7 @@ const PersonalProjects: ProjectSection = {
             year: 2023
         },
         {
-            title: "Hospital Management System Dashboard",
+            title: "Front End Automation Framework",
             coverImagePath: AssetPaths.PROJECT_HMS_APP,
             githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
             description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
@@ -291,7 +291,7 @@ const PersonalProjects: ProjectSection = {
             year: 2024
         },
         {
-            title: "Cross-Platform Music Player",
+            title: "Upgrade Assistant",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
             githubLink: "https://github.com/dhruvilrathod/music_player",
             description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
