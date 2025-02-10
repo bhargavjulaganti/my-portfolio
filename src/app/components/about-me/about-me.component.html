@@ -1,0 +1,62 @@
+<div class="my-24 mt-24 lg:mt-48">
+
+    <div class="main" id="skills">
+
+        <div class="skills-header-div my-8" data-aos="fade-up">
+
+            <h1 class="skills-header">
+                What I Do?
+            </h1>
+        </div>
+
+
+        @for (ab of appConfig.aboutMe; track $index) {
+
+            <div class="skills-main-div">
+
+                <div class="skills-image-div" data-aos="fade-right">
+                    <img [src]="ab.imagePath" [alt]="ab.sectionTitle">
+                </div>
+    
+                <div class="skills-text-div" data-aos="fade-left">
+                    <h1 class="skills-heading">
+                        {{ ab.sectionTitle }}
+                    </h1>
+    
+                    <div class="social-media-div">
+
+                        @for (l of ab.skillLinks; track $index) {
+                            <a 
+                                [href]="l.link"
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                                class="icon-button"
+                                [title]="l.name"
+                                >
+                        
+                                <div class="img-container" [ngStyle]="{'backgroundColor': l.backgroundColor}">
+                                    <img 
+                                        src="https://unpkg.com/simple-icons@v13/icons/{{ l.simpleIconName }}.svg"
+                                        />
+                                </div>
+                        
+                            </a>
+                        }
+                    </div>
+    
+                    <div>
+    
+                        @for (sl of ab.skillsList; track $index) {
+                            <p class="subTitle skills-text">
+                                ⚡ {{ sl }}
+                            </p>
+                        }
+    
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+</div>

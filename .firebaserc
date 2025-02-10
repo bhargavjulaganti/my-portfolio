@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "bhargava-portfolio",
+    "staging": "bhargava-portfolio"
+  },
+  "targets": {
+    "bhargava-portfolio": {
+      "hosting": {
+        "bhargava-portfolio": [
+          "bhargava-portfolio"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
