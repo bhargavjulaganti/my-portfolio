@@ -69,3 +69,6 @@ node_modules/
 .dataconnect
 .angular/*
 dist/*
+public/.DS_Store
+public/assets/.DS_Store
+public/.DS_Store
