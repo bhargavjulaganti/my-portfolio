@@ -1,6 +1,6 @@
 export enum AssetPaths {
     RESUME_IT = "Dhruvil_Rathod.pdf",
-    FEELING_PROUD_SVG = "assets/illustrations/FeelingProud.svg",
+    FEELING_PROUD_SVG = "assets/illustrations/helloIntroduction.svg",
     DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
     FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
     CLOUD_INFRASTRUCTURE_SVG = "assets/illustrations/CouldInfrastructure.svg",
@@ -17,7 +17,9 @@ export enum AssetPaths {
     PROJECT_RAS_FINANCE = "assets/projects-images/ras-finance.png",
     PROJECT_THREEJS_IFC_VIEWER = "assets/projects-images/threejs-ifc-viewer.png",
     EXPERIENCE_COVER = "assets/illustrations/ExperienceCover.svg",
-    WORK_ACQUIRE_LOGO = "assets/experience-images/acquire-logo.png",
+    WORK_BARNESANDNOBLE_LOGO = "assets/experience-images/barnes-and-noble.png",
+    WORK_MEIJER_LOGO = "assets/experience-images/meijer.png",
+    WORK_TARGET_LOGO = "assets/experience-images/target.png",
     WORK_ASITE_LOGO = "assets/experience-images/asite-logo.png",
     WORK_KIWI_LOGO = "assets/experience-images/kiwi-logo.png",
     WORK_RAS_LOGO = "assets/experience-images/ras-logo.png",
@@ -26,4 +28,5 @@ export enum AssetPaths {
     EDUCATION_COVER = "assets/illustrations/EducationCover.svg",
     EDUCATION_GTU_LOGO = "assets/education-images/gtu-logo.png",
     EDUCATION_UNISA_LOGO = "assets/education-images/unisa-logo.png",
+    EDUCATION_ANU_LOGO = "assets/education-images/anu-logo.png"
 }

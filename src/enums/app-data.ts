@@ -7,36 +7,36 @@ import { AssetPaths } from "./asset-paths.enum";
 
 // Social media links to show
 const SocialMediaLinks: ExternalSite[] = [
-    {
-        name: "Github",
-        link: "https://github.com/dhruvilrathod",
-        simpleIconName: "github",
-        backgroundColor: "#181717",
-    },
-    {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
-        simpleIconName: "linkedin", // this icon is not available in simple icon v14
-        backgroundColor: "#0066c8", // manually checked
-    },
-    {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "leetcode",
-        backgroundColor: "#FFA116",
-    },
-    {
-        name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
-        simpleIconName: "gmail",
-        backgroundColor: "#EA4335",
-    },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "instagram",
-        backgroundColor: "#FF0069",
-    }
+    // {
+    //     name: "Github",
+    //     link: "https://github.com/dhruvilrathod",
+    //     simpleIconName: "github",
+    //     backgroundColor: "#181717",
+    // },
+    // {
+    //     name: "LinkedIn",
+    //     link: "https://www.linkedin.com/in/dhruvilrathod/",
+    //     simpleIconName: "linkedin", // this icon is not available in simple icon v14
+    //     backgroundColor: "#0066c8", // manually checked
+    // },
+    // {
+    //     name: "LeetCode",
+    //     link: "https://leetcode.com/dhruvilrathod/",
+    //     simpleIconName: "leetcode",
+    //     backgroundColor: "#FFA116",
+    // },
+    // {
+    //     name: "Gmail",
+    //     link: "mailto:thedhruvilrathod@gmail.com",
+    //     simpleIconName: "gmail",
+    //     backgroundColor: "#EA4335",
+    // },
+    // {
+    //     name: "Instagram",
+    //     link: "https://www.instagram.com/dhruvil.rthd/",
+    //     simpleIconName: "instagram",
+    //     backgroundColor: "#FF0069",
+    // }
 ]
 
 // Fullstack skills
@@ -249,7 +249,7 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
-            title: "Web-Based 3D IFC File Viewer",
+            title: "RMS One Stop",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
             githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
@@ -258,7 +258,7 @@ const PersonalProjects: ProjectSection = {
             year: 2022
         },
         {
-            title: "Customizable Multi-Select Dropdown",
+            title: "End to End Regression tests using Postman",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
             githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
             description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
@@ -267,7 +267,7 @@ const PersonalProjects: ProjectSection = {
             branch: "resource-tree-utility"
         },
         {
-            title: "Learning Management System",
+            title: "ADO Test Plan Standards",
             coverImagePath: AssetPaths.PROJECT_LMS_APP,
             githubLink: "https://github.com/dhruvilrathod/lms-asite",
             description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
@@ -275,7 +275,7 @@ const PersonalProjects: ProjectSection = {
             year: 2023
         },
         {
-            title: "Angular + NestJS Boilerplate",
+            title: "Earl Test Framework",
             coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
             githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
             description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
@@ -283,7 +283,7 @@ const PersonalProjects: ProjectSection = {
             year: 2023
         },
         {
-            title: "Hospital Management System Dashboard",
+            title: "Front End Automation Framework",
             coverImagePath: AssetPaths.PROJECT_HMS_APP,
             githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
             description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
@@ -291,7 +291,7 @@ const PersonalProjects: ProjectSection = {
             year: 2024
         },
         {
-            title: "Cross-Platform Music Player",
+            title: "Upgrade Assistant",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
             githubLink: "https://github.com/dhruvilrathod/music_player",
             description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
@@ -340,39 +340,57 @@ const JobExperience: ExperienceSection = {
     experiences: [
         {
             orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLogoPath: AssetPaths.WORK_BARNESANDNOBLE_LOGO,
+            orgName: "Barnes & Noble",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
+                    positionName: "Lead Automation Engineer",
+                    duration: "Sep 2017 – Mar 2018",
+                    location: "Manhattan, NY",
                     locationType: "On-Site",
-                    jobType: "Part-time",
+                    jobType: "Full-time",
                     workPoints: [
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "Led an automation team to develop end-to-end UI regression tests for Barnes & Noble using Selenium and Cucumber.",
+                        "Helped the team replicate production performance issues in lower environments.",
+                        "Worked on creating Test estimations for the automation projects"
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "", //"https://www.asite.com/",
+            orgLogoPath: AssetPaths.WORK_MEIJER_LOGO,
+            orgName: "Meijer",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
+                    positionName: "Lead Automation Engineer",
+                    duration: "June 2016 – Sep 2017",
+                    location: "Grand Rapids, MI",
+                    locationType: "On-Site",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Led the development of an automation framework using Coded UI for point-of-sale systems, reducing testing time by 60% (from 5 days to 2 days) and improving efficiency.",
+                        "Assisted multiple teams in setting up their initial automated tests for WPF applications",
+                        // "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "", //"https://www.asite.com/",
+            orgLogoPath: AssetPaths.WORK_TARGET_LOGO,
+            orgName: "Meijer",
+            positions: [
+                {
+                    positionName: "QA Automation Lead & Tester",
+                    duration: "Jan 2015 – June 2016",
+                    location: "Minneapolis, MN",
+                    locationType: "On-Site",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "Involved in creating end-to-end regression tests using HP UFT & Selenium.",
+                        "Led teams in offshore onsite model in delivering regression automation for multiple projects.",
+                        // "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
                     ]
                 }
             ]
@@ -381,66 +399,66 @@ const JobExperience: ExperienceSection = {
 }
 
 // Freenacing Experience
-const FreelancingExperience: ExperienceSection = {
-    experienceSectionTitle: "Freelancing",
-    experiences: [
-        {
-            orgLink: "https://kiwifinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
-            orgName: "Kiwi Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2025",
-                    location: "Perth, WA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. 🌐📊",
-                        "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. 📋",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://rasfinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_RAS_LOGO,
-            orgName: "RAS Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2024",
-                    location: "Adelaide, SA",
-                    locationType: "Hybrid",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. 📊📝",
-                        "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. 📧📋✨",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2023",
-                    location: "Adelaide, SA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
-                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
-                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
-                    ]
-                }
-            ]
-        },
-    ]
-}
+// const FreelancingExperience: ExperienceSection = {
+//     experienceSectionTitle: "Freelancing",
+//     experiences: [
+//         {
+//             orgLink: "https://kiwifinance.com.au/",
+//             orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
+//             orgName: "Kiwi Finance",
+//             positions: [
+//                 {
+//                     positionName: "Professional Freelancer",
+//                     duration: "2025",
+//                     location: "Perth, WA",
+//                     locationType: "Remote",
+//                     jobType: "Contract",
+//                     workPoints: [
+//                         "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. 🌐📊",
+//                         "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. 📋",
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             orgLink: "https://rasfinance.com.au/",
+//             orgLogoPath: AssetPaths.WORK_RAS_LOGO,
+//             orgName: "RAS Finance",
+//             positions: [
+//                 {
+//                     positionName: "Professional Freelancer",
+//                     duration: "2024",
+//                     location: "Adelaide, SA",
+//                     locationType: "Hybrid",
+//                     jobType: "Contract",
+//                     workPoints: [
+//                         "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. 📊📝",
+//                         "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. 📧📋✨",
+//                     ]
+//                 }
+//             ]
+//         },
+//         {
+//             orgLink: "https://acquireconveyancing.com.au/",
+//             orgLogoPath: AssetPaths.WORK_BARNESANDNOBLE_LOGO,
+//             orgName: "Acquire Conveyancing",
+//             positions: [
+//                 {
+//                     positionName: "Professional Freelancer",
+//                     duration: "2023",
+//                     location: "Adelaide, SA",
+//                     locationType: "Remote",
+//                     jobType: "Contract",
+//                     workPoints: [
+//                         "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
+//                         "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
+//                         "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
+//                     ]
+//                 }
+//             ]
+//         },
+//     ]
+// }
 
 // Internships Experience
 const InternshipExperience: ExperienceSection = {
@@ -522,50 +540,31 @@ const CommunityInvolvement: ExperienceSection = {
 // Degrees
 const BachelorsDegree: EducationSection = {
     degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    majorName: "Electronics & Communications Engineering",
+    duration: "Apr 2007 - Apr 2011",
+    universityName: "Acharya Nagarjuna University",
+    campusName: "ANU",
+    logoImagePath: AssetPaths.EDUCATION_ANU_LOGO,
+    // gpa: "6.9 / 7.0",
+    websiteLink: "https://www.nagarjunauniversity.ac.in",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "Studied foundational subjects like Data Structures, Database Management Systems, and Operating Systems, building a strong base in computer science. 🧠💻",
+        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️"
     ]
 }
-
-const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
-    studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
-    ]
-}
-
-
 
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
+    loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Bhargava Julaganti",         // Signature font logo name in header
     name: "Bhargava Julaganti",            // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    emailId: "bhargavjulaganti@gmail.com",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
-    professionalSummary: "AAAAAAAA results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
+    professionalTitle: "Development | Testing | Freelancing",
+    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
     githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
     portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
@@ -589,16 +588,16 @@ export const AppConfig = {
     experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A Journey Through Internships, Challenges, Innovation and Community Invovements.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
-        InternshipExperience,
-        FreelancingExperience,
-        CommunityInvolvement,
+        // InternshipExperience,
+        // FreelancingExperience,
+        // CommunityInvolvement,
     ],
 
     // Education page
     educationPageTitle: "Degrees and Qualifications",
     educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
     educationSections: [
-        MastersDegree,
+        // MastersDegree,
         BachelorsDegree,
     ],
 

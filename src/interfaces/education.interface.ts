@@ -7,5 +7,5 @@ export interface EducationSection {
     websiteLink: string,
     logoImagePath: string,
     studyPoints: string[],
-    gpa?: string,
+    // gpa?: string,
 }
