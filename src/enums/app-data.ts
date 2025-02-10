@@ -540,37 +540,18 @@ const CommunityInvolvement: ExperienceSection = {
 // Degrees
 const BachelorsDegree: EducationSection = {
     degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    majorName: "Electronics & Communications Engineering",
+    duration: "Apr 2007 - Apr 2011",
+    universityName: "Acharya Nagarjuna University",
+    campusName: "ANU",
+    logoImagePath: AssetPaths.EDUCATION_ANU_LOGO,
+    // gpa: "6.9 / 7.0",
+    websiteLink: "https://www.nagarjunauniversity.ac.in",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "Studied foundational subjects like Data Structures, Database Management Systems, and Operating Systems, building a strong base in computer science. 🧠💻",
+        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️"
     ]
 }
-
-const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
-    studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
-    ]
-}
-
-
 
 export const AppConfig = {
     loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
@@ -616,7 +597,7 @@ export const AppConfig = {
     educationPageTitle: "Degrees and Qualifications",
     educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
     educationSections: [
-        MastersDegree,
+        // MastersDegree,
         BachelorsDegree,
     ],
 
