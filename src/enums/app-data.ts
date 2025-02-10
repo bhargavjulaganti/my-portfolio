@@ -7,36 +7,36 @@ import { AssetPaths } from "./asset-paths.enum";
 
 // Social media links to show
 const SocialMediaLinks: ExternalSite[] = [
-    {
-        name: "Github",
-        link: "https://github.com/dhruvilrathod",
-        simpleIconName: "github",
-        backgroundColor: "#181717",
-    },
-    {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
-        simpleIconName: "linkedin", // this icon is not available in simple icon v14
-        backgroundColor: "#0066c8", // manually checked
-    },
-    {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "leetcode",
-        backgroundColor: "#FFA116",
-    },
-    {
-        name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
-        simpleIconName: "gmail",
-        backgroundColor: "#EA4335",
-    },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "instagram",
-        backgroundColor: "#FF0069",
-    }
+    // {
+    //     name: "Github",
+    //     link: "https://github.com/dhruvilrathod",
+    //     simpleIconName: "github",
+    //     backgroundColor: "#181717",
+    // },
+    // {
+    //     name: "LinkedIn",
+    //     link: "https://www.linkedin.com/in/dhruvilrathod/",
+    //     simpleIconName: "linkedin", // this icon is not available in simple icon v14
+    //     backgroundColor: "#0066c8", // manually checked
+    // },
+    // {
+    //     name: "LeetCode",
+    //     link: "https://leetcode.com/dhruvilrathod/",
+    //     simpleIconName: "leetcode",
+    //     backgroundColor: "#FFA116",
+    // },
+    // {
+    //     name: "Gmail",
+    //     link: "mailto:thedhruvilrathod@gmail.com",
+    //     simpleIconName: "gmail",
+    //     backgroundColor: "#EA4335",
+    // },
+    // {
+    //     name: "Instagram",
+    //     link: "https://www.instagram.com/dhruvil.rthd/",
+    //     simpleIconName: "instagram",
+    //     backgroundColor: "#FF0069",
+    // }
 ]
 
 // Fullstack skills
@@ -555,7 +555,7 @@ const MastersDegree: EducationSection = {
 
 
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
+    loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Bhargava Julaganti",         // Signature font logo name in header
     name: "Bhargava Julaganti",            // your name
     emailId: "thedhruvilrathod@gmail.com",  // your email id
@@ -564,8 +564,8 @@ export const AppConfig = {
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
-    professionalSummary: "AAAAAAAA results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
+    professionalTitle: "Development | Testing | Freelancing",
+    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
     githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
     portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
