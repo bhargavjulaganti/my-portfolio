@@ -32,12 +32,12 @@ export const RoutesData: RouteData[] = [
         routeURLName: AppRoutes.EDUCATION,
         isVisible: true,
     },
-    {
-        routeLinkText: "Contact",
-        routeURLName: AppRoutes.CONTACT,
-        isVisible: true,
-        isExternalLink: true,
-    },
+    // {
+    //     routeLinkText: "Contact",
+    //     routeURLName: AppRoutes.CONTACT,
+    //     isVisible: true,
+    //     isExternalLink: true,
+    // },
     {
         routeLinkText: "Error",
         routeURLName: AppRoutes.ERROR,
