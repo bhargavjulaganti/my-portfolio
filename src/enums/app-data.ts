@@ -245,9 +245,36 @@ const DigitalSolutionSection: SkillSection = {
 
 // Personal projects
 const PersonalProjects: ProjectSection = {
-    sectionTitle: "My Projects",
+    sectionTitle: "Projects",
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
+        {
+            title: "Upgrade Assistant",
+            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
+            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
+            year: 2024
+        },
+        {
+            title: "Servicing Wiremock",
+            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
+            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
+            year: 2024
+        },
+        {
+            title: "Acquistion Api",
+            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
+            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
+            year: 2024
+        },
         {
             title: "RMS One Stop",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
@@ -291,7 +318,7 @@ const PersonalProjects: ProjectSection = {
             year: 2024
         },
         {
-            title: "Upgrade Assistant",
+            title: "Servicing Documents Api",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
             githubLink: "https://github.com/dhruvilrathod/music_player",
             description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
@@ -302,36 +329,36 @@ const PersonalProjects: ProjectSection = {
 }
 
 // Freelancing projects
-const FreelancingProjects: ProjectSection = {
-    sectionTitle: "Freelancing",
-    sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
-    entities: [
-        {
-            title: "Kiwi Finance",
-            coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
-            liveLink: "https://kiwifinance.com.au/",
-            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2025
-        },
-        {
-            title: "RAS Finance Website + CMS",
-            coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
-            liveLink: "https://rasfinance.com.au/",
-            description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2024
-        },
-        {
-            title: "Acquire Conveyancing Website",
-            coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
-            liveLink: "https://acquireconveyancing.com.au/",
-            description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
-            techStack: ["Angular", "Tailwind", "Firebase"],
-            year: 2023
-        },
-    ]
-}
+// const FreelancingProjects: ProjectSection = {
+//     sectionTitle: "Freelancing",
+//     sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
+//     entities: [
+//         {
+//             title: "Kiwi Finance",
+//             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
+//             liveLink: "https://kiwifinance.com.au/",
+//             description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
+//             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
+//             year: 2025
+//         },
+//         {
+//             title: "RAS Finance Website + CMS",
+//             coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
+//             liveLink: "https://rasfinance.com.au/",
+//             description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
+//             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
+//             year: 2024
+//         },
+//         {
+//             title: "Acquire Conveyancing Website",
+//             coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
+//             liveLink: "https://acquireconveyancing.com.au/",
+//             description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
+//             techStack: ["Angular", "Tailwind", "Firebase"],
+//             year: 2023
+//         },
+//     ]
+// }
 
 
 // Job experience
@@ -579,7 +606,7 @@ export const AppConfig = {
     projectsPageTitle: "Projects & Freelancing",    // Title of projects page
     projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
     projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
+        // FreelancingProjects,
         PersonalProjects,
     ],
 
