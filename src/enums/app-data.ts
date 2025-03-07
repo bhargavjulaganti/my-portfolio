@@ -7,36 +7,18 @@ import { AssetPaths } from "./asset-paths.enum";
 
 // Social media links to show
 const SocialMediaLinks: ExternalSite[] = [
-    // {
-    //     name: "Github",
-    //     link: "https://github.com/dhruvilrathod",
-    //     simpleIconName: "github",
-    //     backgroundColor: "#181717",
-    // },
-    // {
-    //     name: "LinkedIn",
-    //     link: "https://www.linkedin.com/in/dhruvilrathod/",
-    //     simpleIconName: "linkedin", // this icon is not available in simple icon v14
-    //     backgroundColor: "#0066c8", // manually checked
-    // },
-    // {
-    //     name: "LeetCode",
-    //     link: "https://leetcode.com/dhruvilrathod/",
-    //     simpleIconName: "leetcode",
-    //     backgroundColor: "#FFA116",
-    // },
-    // {
-    //     name: "Gmail",
-    //     link: "mailto:thedhruvilrathod@gmail.com",
-    //     simpleIconName: "gmail",
-    //     backgroundColor: "#EA4335",
-    // },
-    // {
-    //     name: "Instagram",
-    //     link: "https://www.instagram.com/dhruvil.rthd/",
-    //     simpleIconName: "instagram",
-    //     backgroundColor: "#FF0069",
-    // }
+    {
+        name: "Github",
+        link: "https://git.rockfin.com/bjulaganti",
+        simpleIconName: "github",
+        backgroundColor: "#181717",
+    },
+    {
+        name: "Gmail",
+        link: "mailto:bhargavajulaganti@rocketmortgage.com",
+        simpleIconName: "gmail",
+        backgroundColor: "#EA4335",
+    },
 ]
 
 // Fullstack skills
@@ -113,12 +95,11 @@ const FullstackSkills: ExternalSite[] = [
 const FullstackSection: SkillSection = {
     sectionTitle: "Fullstack Development",
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
-    skillLinks: FullstackSkills,
+    skillLinks: [],//FullstackSkills,
     skillsList: [
-        "Building responsive website front-end using Angular",
-        "Developing custom and interactive 3D websites",
-        "Creating application backend in Node, Express & NestJS",
-        "Managing data safely with PostgreSQL, MongoDB and OracleDB",
+        "Experienced in building front-end and back-end applications from start to finish, delivering robust and user-friendly solutions.",
+        "Fostered an enhanced testing environment within the stream, leading numerous demos and guides to assist in upholding automation standards.",
+        "Designed and built testing frameworks for both front-end and back-end automation."
     ]
 }
 
@@ -175,16 +156,16 @@ const CloudSkills: ExternalSite[] = [
 ];
 
 // Could section
-const CloudSection: SkillSection = {
-    sectionTitle: "Cloud Infra-Architecture",
-    imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
-    skillLinks: CloudSkills,
-    skillsList: [
-        "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
-        "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
-        "Setting up email triggers and Googlesheet integration for streamline client inquiry",
-    ]
-}
+// const CloudSection: SkillSection = {
+//     sectionTitle: "Cloud Infra-Architecture",
+//     imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
+//     skillLinks: CloudSkills,
+//     skillsList: [
+//         "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
+//         "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
+//         "Setting up email triggers and Googlesheet integration for streamline client inquiry",
+//     ]
+// }
 
 // Design skills
 const DesignSkills: ExternalSite[] = [
@@ -215,8 +196,8 @@ const DesignSkills: ExternalSite[] = [
 ];
 
 // Design section
-const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
+const TechnologyandToolsSection: SkillSection = {
+    sectionTitle: "Technologies and Tools",
     imagePath: AssetPaths.UI_UX_DESIGN_SVG,
     skillLinks: DesignSkills,
     skillsList: [
@@ -244,119 +225,88 @@ const DigitalSolutionSection: SkillSection = {
 }
 
 // Personal projects
-const PersonalProjects: ProjectSection = {
-    sectionTitle: "Projects",
-    sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
-    entities: [
-        {
-            title: "Upgrade Assistant",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2024
-        },
-        {
-            title: "Servicing Wiremock",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2024
-        },
-        {
-            title: "Acquistion Api",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2024
-        },
-        {
-            title: "RMS One Stop",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
-        },
-        {
-            title: "End to End Regression tests using Postman",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
-            year: 2023,
-            branch: "resource-tree-utility"
-        },
-        {
-            title: "ADO Test Plan Standards",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
-        },
-        {
-            title: "Earl Test Framework",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
-        },
-        {
-            title: "Front End Automation Framework",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
-            year: 2024
-        },
-        {
-            title: "Servicing Documents Api",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
-        }
-    ]
-}
-
-// Freelancing projects
-// const FreelancingProjects: ProjectSection = {
-//     sectionTitle: "Freelancing",
-//     sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
+// export const PersonalProjects: ProjectSection = {
+//     sectionTitle: "Projects",
+//     sectionSubtitle: "",//"🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
 //     entities: [
 //         {
-//             title: "Kiwi Finance",
-//             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
-//             liveLink: "https://kiwifinance.com.au/",
-//             description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
-//             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-//             year: 2025
-//         },
-//         {
-//             title: "RAS Finance Website + CMS",
-//             coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
-//             liveLink: "https://rasfinance.com.au/",
-//             description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
-//             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
+//             title: "Upgrade Assistant",
+//             coverImagePath: AssetPaths.PROJECT_UPGRADE_ASSISTANT,
+//             liveLink: "https://upgrade-assistant.servicing.foc.zone/home",
+//             githubLink: "https://git.rockfin.com/servicing-sre/UpgradeAssistant",
+//             description: "🧱 AI-driven platform designed to streamline and simplify application maintenance tasks, enabling teams to focus on business innovation rather than routine maintenance work.",
+//             techStack: ["Angular", "Dotnet core", "AwsBedRock"],
 //             year: 2024
 //         },
 //         {
-//             title: "Acquire Conveyancing Website",
-//             coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
-//             liveLink: "https://acquireconveyancing.com.au/",
-//             description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
-//             techStack: ["Angular", "Tailwind", "Firebase"],
+//             title: "Servicing Wiremock",
+//             coverImagePath: AssetPaths.PROJECT_SERVICING_WIREMOCK,
+//             liveLink: "https://github.com/RocketMortgage/212388-servicing-wiremock",
+//             githubLink: "https://github.com/RocketMortgage/212388-servicing-wiremock",
+//             description: "🧱 A .NET Core API, using WireMock built in Kubernetes, to easily virtualize dependent services in lower environments, allowing engineers to concentrate more on core engineering tasks and less time on loan conditioning.",
+//             techStack: ["Dotnet core", "Kubernetes", "Istio"],
+//             year: 2024
+//         },
+//         {
+//             title: "Acquistion Api",
+//             coverImagePath: AssetPaths.PROJECT_UPGRADE_ASSISTANT,
+//             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+//             githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+//             description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+//             techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
+//             year: 2024
+//         },
+//         {
+//             title: "Servicing One Stop",
+//             coverImagePath: AssetPaths.PROJECT_ONESTOP,
+//             liveLink: "https://git.rockfin.com/myql-servicing/RmsOneStop",
+//             githubLink: "https://onestop.beta.servicing.foc.zone/loan-search",
+//             description: "🧱 This application simplifies the process of finding servicing loans in lower environments, thus diminishing the dependency on the technology team members. Consequently, our technology can concentrate their expertise on crucial engineering pursuits",
+//             techStack: ["Angular", "Dotnet core", "AWS"],
+//             year: 2020
+//         },
+//         {
+//             title: "Servicing Documents Api",
+//             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+//             githubLink: "https://github.com/dhruvilrathod/music_player",
+//             description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+//             techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
 //             year: 2023
 //         },
+//         {
+//             title: "Earl Test Framework",
+//             coverImagePath: AssetPaths.PROJECT_EARLTESTFRAMEWORK,
+//             liveLink: "https://git.rockfin.com/myql-servicing/RmsOneStop",
+//             githubLink: "https://onestop.beta.servicing.foc.zone/loan-search",
+//             description: "🧱 Developing an effective, user-friendly platform for automating a wide range of industry level testing strategies under a unified framework, with the goal of eventual transition to a full CI/CD pipeline. The goal of this project is to have integration test, component test and e2e service test on top of common foundation. Earl uses microservices testing strategies to create infrastructure services in dev environment using docker API",
+//             techStack: ["Angular", "Dotnet core", "AWS"],
+//             year: 2020
+//         },
+//         {
+//             title: "Front End Automation Framework",
+//             coverImagePath: AssetPaths.PROJECT_HMS_APP,
+//             githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
+//             description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
+//             techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
+//             year: 2024
+//         },
+//         {
+//             title: "End to End Regression tests using Postman",
+//             coverImagePath: AssetPaths.PROJECT_EARLTESTFRAMEWORK,
+//             liveLink: "https://git.rockfin.com/myql-servicing/RmsOneStop",
+//             githubLink: "https://onestop.beta.servicing.foc.zone/loan-search",
+//             description: "🧱 Developing an effective, user-friendly platform for automating a wide range of industry level testing strategies under a unified framework, with the goal of eventual transition to a full CI/CD pipeline. The goal of this project is to have integration test, component test and e2e service test on top of common foundation. Earl uses microservices testing strategies to create infrastructure services in dev environment using docker API",
+//             techStack: ["Angular", "Dotnet core", "AWS"],
+//             year: 2020
+//         },
+//         {
+//             title: "ADO Test Plan Standards",
+//             coverImagePath: AssetPaths.PROJECT_LMS_APP,
+//             githubLink: "https://github.com/dhruvilrathod/lms-asite",
+//             description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
+//             techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
+//             year: 2023
+//         }
 //     ]
 // }
 
@@ -584,22 +534,23 @@ export const AppConfig = {
     loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Bhargava Julaganti",         // Signature font logo name in header
     name: "Bhargava Julaganti",            // your name
-    emailId: "bhargavjulaganti@gmail.com",  // your email id
+    emailId: "bhargavajulaganti@rocketmortgage.com",  // your email id
 
     // Google Form Contact Link
-    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
+    // googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Testing | Freelancing",
-    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
+    professionalTitle: "Development | Automated Testing",
+    professionalSummary: "Senior Quality Engineer with 7 years of experience in the Servicing Platform, specializing in technology implementation to enhance engineering and quality process. Started as a Quality Engineer (FOC), identifying gaps and automating processes for efficiency, leading to roles as Software Engineer and Senior Quality Engineer, driving innovation in engineering and testing spaces.",
+    githubProfile: "https://git.rockfin.com/bjulaganti",              // Your github profile link
+    portfolioRepository: "",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
-        CloudSection,
-        DesignSection,
-        DigitalSolutionSection,
+        // TechnologyandToolsSection,
+        // CloudSection,
+        // DesignSection,
+        // DigitalSolutionSection,
     ],
 
     // Projects page
@@ -607,7 +558,7 @@ export const AppConfig = {
     projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
     projectSections: [                  // Define and add a custom section if needed
         // FreelancingProjects,
-        PersonalProjects,
+        // PersonalProjects,
     ],
 
     // Experience page
