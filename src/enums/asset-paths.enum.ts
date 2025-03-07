@@ -1,5 +1,5 @@
 export enum AssetPaths {
-    RESUME_IT = "Dhruvil_Rathod.pdf",
+    RESUME_IT = "Bhargava_Julaganti.pdf", // TODO: add resume pdf file
     FEELING_PROUD_SVG = "assets/illustrations/helloIntroduction.svg",
     DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
     FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
