@@ -30,7 +30,7 @@ export class ProjectsComponent {
         "Added a chat component in the UI and integrated with our slack support channel.",
       ],
       techStack: ["Angular", "Dotnet core", "AwsBedRock"],
-      year: 2024,
+      year: "2024 - Present",
     },
     {
       title: "Servicing Wiremock",
@@ -46,7 +46,39 @@ export class ProjectsComponent {
         "Incorporated S3 in the project for bulk stub uploads. This facilitates real-time stub display via Wiremock, negating application redeployment for new stubs.",
       ],
       techStack: ["Dotnet core", "Kubernetes", "Istio"],
-      year: 2024,
+      year: "2024 - Present",
+    },
+    {
+      title: "Playwright Automation Framework",
+      coverImagePath: AssetPaths.PROJECT_SERVICING_WIREMOCK,
+      liveLink: "https://git.rockfin.com/myql-servicing/servicing-onestop-api",
+      githubLink:
+        "https://git.rockfin.com/myql-servicing/servicing-onestop-api",
+      description:
+        "🧱 Working collaboratively with an engineer, to create a front-end automation framework and set standards. This initiative helps us to reduce manual testing and also help us move features faster with more quality.",
+      techStack: ["Dotnet core", "Kubernetes", "Istio"],
+      features: [
+        "Developed an initial proof of concept (POC) and presented it to the teams to demonstrate the benefits of automation.",
+        "Integrated Lighthouse reports into the framework to evaluate page performance when new features are added.",
+        "Integrated with ReportPortal to post test results, helping leaders track metrics and make informed decisions based on the results."
+      ],
+      year: "2024 - Present",
+    },
+    {
+      title: "Earl Test Framework",
+      coverImagePath: AssetPaths.PROJECT_SERVICING_WIREMOCK,
+      liveLink: "https://git.rockfin.com/Servicing/earl-test-framework",
+      githubLink:
+        "https://git.rockfin.com/Servicing/earl-test-framework",
+      description:
+        "🧱 Working collaboratively with an engineer, developed a platform aimed at automating an array of industry-standard testing strategies within a cohesive framework, with eventual advancement towards a complete CI/CD pipeline in view. The project's goal is to leverage contemporary testing methods to expedite the testing process and minimize time spent on end-to-end tests.",
+      techStack: ["Dotnet", "Docker", "Wiremock"],
+      features: [
+        "Integrated local stack to the test framework, so users can easily automate or test new features locally when developing new features.",
+        "Integrated Kafka container into the testing framework for effortless Kafka message testing during new feature development.",
+        "Integrated with onestop, so users can easily fetch test loans, for the automated test cases."
+      ],
+      year: "2023 - Present",
     },
     {
       title: "One Stop",
@@ -63,7 +95,7 @@ export class ProjectsComponent {
         "Added a a feature allowing users to select diverse business conditions to efficiently locate the relevant test loans.",
         "Incorporated a bulk upload feature that enables businesses to import numerous loans into the 'OneStop' database simultaneously.",
       ],
-      year: 2021,
+      year: "2021 - Present",
     },
     {
       title: "Servicing Documents Api",
@@ -128,39 +160,7 @@ export class ProjectsComponent {
         "Added functionality to identify whether the client is in the Covid CheckIn experience or the Back on Track experience."
       ],
       year: 2020,
-    },
-    {
-      title: "Earl Test Framework",
-      coverImagePath: AssetPaths.PROJECT_SERVICING_WIREMOCK,
-      liveLink: "https://git.rockfin.com/Servicing/earl-test-framework",
-      githubLink:
-        "https://git.rockfin.com/Servicing/earl-test-framework",
-      description:
-        "🧱 Working collaboratively with an engineer, developed a platform aimed at automating an array of industry-standard testing strategies within a cohesive framework, with eventual advancement towards a complete CI/CD pipeline in view. The project's goal is to leverage contemporary testing methods to expedite the testing process and minimize time spent on end-to-end tests.",
-      techStack: ["Dotnet", "Docker", "Wiremock"],
-      features: [
-        "Integrated local stack to the test framework, so users can easily automate or test new features locally when developing new features.",
-        "Integrated Kafka container into the testing framework for effortless Kafka message testing during new feature development.",
-        "Integrated with onestop, so users can easily fetch test loans, for the automated test cases."
-      ],
-      year: 2023,
-    },
-    {
-      title: "Playwright Automation Framework",
-      coverImagePath: AssetPaths.PROJECT_SERVICING_WIREMOCK,
-      liveLink: "https://git.rockfin.com/myql-servicing/servicing-onestop-api",
-      githubLink:
-        "https://git.rockfin.com/myql-servicing/servicing-onestop-api",
-      description:
-        "🧱 Working collaboratively with an engineer, to create a front-end automation framework and set standards. This initiative helps us to reduce manual testing and also help us move features faster with more quality.",
-      techStack: ["Dotnet core", "Kubernetes", "Istio"],
-      features: [
-        "Developed an initial proof of concept (POC) and presented it to the teams to demonstrate the benefits of automation.",
-        "Integrated Lighthouse reports into the framework to evaluate page performance when new features are added.",
-        "Integrated with ReportPortal to post test results, helping leaders track metrics and make informed decisions based on the results."
-      ],
-      year: 2024,
-    },
+    }
   ];
 
   constructor(private _globalStates: GlobalStatsService) {
