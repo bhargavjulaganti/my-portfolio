@@ -476,8 +476,8 @@ export const AppConfig = {
     ],
 
     // Experience page
-    experiencePageTitle: "Work, Internships and Involvements",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A Journey Through Internships, Challenges, Innovation and Community Invovements.",
+    experiencePageTitle: "Work",
+    experiencePageDescription: "💼 A journey of leading innovations and challenges.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
         // InternshipExperience,
