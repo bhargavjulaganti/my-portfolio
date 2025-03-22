@@ -9,16 +9,28 @@ import { AssetPaths } from "./asset-paths.enum";
 const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
-        link: "https://git.rockfin.com/bjulaganti",
+        link: "https://github.com/bhargavjulaganti",
         simpleIconName: "github",
         backgroundColor: "#181717",
     },
     {
         name: "Gmail",
-        link: "mailto:bhargavajulaganti@rocketmortgage.com",
+        link: "mailto:bhargavjulaganti@gmail.com",
         simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
+    {
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/bhargav-julaganti-61851016/",
+        simpleIconName: "linkedin", // this icon is not available in simple icon v14
+        backgroundColor: "#0066c8", // manually checked
+    },
+    // {
+    //     name: "LeetCode",
+    //     link: "https://leetcode.com/dhruvilrathod/",
+    //     simpleIconName: "leetcode",
+    //     backgroundColor: "#FFA116",
+    // },
 ]
 
 // Fullstack skills
