@@ -1,0 +1,31 @@
+name: Deploy Angular 18 to Firebase
+
+on:
+  push:
+    branches:
+      - main  # Adjust if using a different branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Use appropriate Node.js version
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Angular Project
+        run: npm run build -- --configuration=production  # Adjust config if needed
+
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase
+        run: firebase deploy --token "$FIREBASE_TOKEN"
