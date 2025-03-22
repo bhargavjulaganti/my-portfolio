@@ -6,7 +6,7 @@ fir<p align="center">
 <h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio template developed with Angular and SCSS! <h3>
 
 <p align="center"> 
-    <a href="https://angular-master-portfolio.web.app/" target="_blank">
+    <a href="https://bhargava-portfolio.web.app/" target="_blank">
     <img src="public/assets/images/ng-master-ss.png"></img>
   </a>
 </p>
@@ -17,11 +17,10 @@ fir<p align="center">
 
 ✔️ Home\
 ✔️ About me\
-✔️ Projects \
 ✔️ Experience\
 ✔️ Education
 
-To view a live example, **[click here](https://angular-master-portfolio.web.app/)**
+To view a live example, **[click here](https://bhargava-portfolio.web.app/)**
 
 
 ## 🚀 Getting Started
@@ -35,8 +34,8 @@ Follow the official Angular documentation to [download and install Angular](http
 ### Clone and Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dhruvilrathod/Angular-Master-Portfolio
-   cd Angular-Master-Portfolio
+   git clone https://github.com/bhargavjulaganti/my-portfolio
+   cd my-portfolio
    ```
 
 2. Install dependencies:
@@ -87,7 +86,7 @@ This project is hosted using **Firebase Hosting**. Follow these steps to deploy:
 2. **Modify Firebase Configurations**
    - Use the existing Firebase configuration file in this project and update it with your project’s specific details.
 
-3. **Deploy the Project**
+3. **Deploy the Project from locally**
    - Install the Firebase CLI:
      ```bash
      npm install -g firebase-tools
@@ -99,7 +98,15 @@ This project is hosted using **Firebase Hosting**. Follow these steps to deploy:
    - Initialize Firebase Hosting:
      ```bash
      firebase init
+     ```  
+   - Get firebase token
+     ```bash
+     firebase login:ci
      ```
+   - Go to GitHub → Your Repository → Settings → Secrets and variables → Actions
+   - Click “New repository secret”
+   - Name it FIREBASE_TOKEN, paste the token and save it 
+   - Code will be deployed using GithubActions
 
 For more detailed instructions, refer to the [Firebase Hosting documentation](https://firebase.google.com/docs/hosting).
 
@@ -120,7 +127,9 @@ Happy Coding! 🎉
 
 # References 👏🏻
 
-- Some Design Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) 
+- Some Design Ideas are taken from the below portfolio's
+- [dhruvilrathod Portfolio Project](https://github.com/dhruvilrathod/Angular-Master-Portfolio)
+- [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) 
 - [Ashutosh Hathidara's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
 - [https://github.com/adrianhajdin/portfolio](https://minimal-portfolio-swart.vercel.app/#testimonials)
 - https://aakash-sharma.netlify.app/
