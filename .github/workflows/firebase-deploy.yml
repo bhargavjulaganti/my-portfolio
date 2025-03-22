@@ -3,7 +3,7 @@ name: Deploy Angular 18 to Firebase
 on:
   push:
     branches:
-      - main  # Adjust if using a different branch
+      - main, UpdatePublicPortfolio  # Adjust if using a different branch
 
 jobs:
   deploy:
