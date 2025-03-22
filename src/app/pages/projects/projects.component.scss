@@ -136,3 +136,136 @@
         margin-top: 30px;
     }
 }
+
+.card {
+    background-color: #d8ebff; /* Light blue background */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .emoji {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366; /* Dark blue */
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-date {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .tech-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .tech-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .repo-name {
+    text-align: left;
+    color: rgb(36, 41, 46);
+    font-family: "Google Sans Regular";
+    margin-bottom: 0.75rem;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    line-height: 1.2;
+    margin: 0px;
+  }
+
+
+  .card-2 {
+    width: 100%; /* Use full width of the container */
+    padding: 20px; /* Add padding for better spacing */
+    margin: 20px 0; /* Add margin for spacing */
+    box-shadow: 0px 0px 20px 4px #c2ebff; /* Add a box shadow for better visibility */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #fff; /* Set background color */
+    transition: all 200ms; /* Add transition for smooth effects */
+
+    .projects-heading-div-2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .emoji {
+            font-size: 24px; /* Increase emoji size */
+            margin-right: 10px;
+        }
+
+        .repo-name {
+            font-size: 24px; /* Increase repo name size */
+            font-weight: bold;
+        }
+    }
+
+    .card-description {
+        font-size: 16px; /* Increase description text size */
+        margin-bottom: 10px;
+    }
+
+    .card-date {
+        font-size: 16px; /* Increase date text size */
+        bottom: 10px; 
+        color: #888; /* Change color for better visibility */
+        // position: absolute;
+        // bottom: 10px; /* Position the date 10px from the bottom */
+        // left: 10px; /* Position the date 10px from the left */
+        // font-size: 14px; /* Adjust the font size as needed */
+        // color: #888; /* Adjust the color as needed */
+    }
+
+    .card-list {
+        margin: 10px 0;
+        padding-left: 20px;
+
+        li {
+            display: flex; 
+            font-size: 14px; /* Set list item text size */
+            margin-bottom: 5px;
+
+            .check-icon {
+                margin-right: 8px; /* Add space between the image and the text */
+                width: 16px; /* Set the width of the image */
+                height: 16px; /* Set the height of the image */
+            }
+        }
+    }
+
+    .tech-icons {
+        margin-top: 10px;
+    }
+}
+
+.repo-svg {
+    margin-right: 8px; /* Add margin to the right of the SVG */
+}
+  
+

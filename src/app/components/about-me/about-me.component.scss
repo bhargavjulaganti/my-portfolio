@@ -172,3 +172,81 @@
         width: 3rem;
     }
 }
+
+// @keyframes moveFromLeftToRight {
+//     0% { 
+//       transform: translateX(0); 
+//     }
+//     100% { 
+//       transform: translateX(calc(100vw)); 
+//     }
+//   }
+  
+//   .list-item {
+//     animation: moveFromLeftToRight 10s linear infinite;
+//     // width: 500px;
+//     // height: 500px;
+//     word-wrap: break-word; /* Old browsers */
+//     overflow-wrap: break-word; /* Modern browsers */  
+//   }
+
+//   @keyframes scroll {
+//     0% {
+//       transform: translateX(0%);
+//     }
+//     100% {
+//       transform: translateX(-50%);
+//     }
+//   }
+  
+//   .item-container {
+//     animation: scroll 10s linear infinite;
+//   }
+  
+//   .item {
+//     flex: 0 0 auto;
+//     width: 50px;
+//     height: 50px;
+//   }
+
+//   @keyframes scroll {
+//     0% {
+//       transform: translateX(0%);
+//     }
+//     100% {
+//       transform: translateX(-50%);
+//     }
+//   }
+  
+//   .parent {
+//     overflow: hidden;
+//     width: max-content;
+//   }
+  
+//   .item-container {
+//     animation: scroll 10s linear infinite;
+//     display: inline-flex;
+//   }
+  
+//   .item {
+//     width: 50px;
+//     height: 50px;
+//   }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 80s linear infinite;
+}
+
+.custom-text-lg {
+    font-size: 0.75rem !important; /* Tailwind's text-xs size */
+  }

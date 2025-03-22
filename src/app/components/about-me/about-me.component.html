@@ -1,62 +1,115 @@
 <div class="my-24 mt-24 lg:mt-48">
+  <div class="main" id="skills">
+    <div class="skills-header-div my-8" data-aos="fade-up">
+      <h1 class="skills-header">What I Do?</h1>
+    </div>
 
-    <div class="main" id="skills">
+    @for (ab of appConfig.aboutMe; track $index) {
 
-        <div class="skills-header-div my-8" data-aos="fade-up">
+    <div class="skills-main-div">
+      <div class="skills-image-div" data-aos="fade-right">
+        <img [src]="ab.imagePath" [alt]="ab.sectionTitle" />
+      </div>
 
-            <h1 class="skills-header">
-                What I Do?
-            </h1>
+      <div class="skills-text-div" data-aos="fade-left">
+        <h1 class="skills-heading">
+          {{ ab.sectionTitle }}
+        </h1>
+
+        <div class="social-media-div">
+          @for (l of ab.skillLinks; track $index) {
+          <a
+            [href]="l.link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon-button"
+            [title]="l.name"
+          >
+            <div
+              class="img-container"
+              [ngStyle]="{ backgroundColor: l.backgroundColor }"
+            >
+              <img
+                src="https://unpkg.com/simple-icons@v13/icons/{{
+                  l.simpleIconName
+                }}.svg"
+              />
+            </div>
+          </a>
+          }
         </div>
 
-
-        @for (ab of appConfig.aboutMe; track $index) {
-
-            <div class="skills-main-div">
-
-                <div class="skills-image-div" data-aos="fade-right">
-                    <img [src]="ab.imagePath" [alt]="ab.sectionTitle">
-                </div>
-    
-                <div class="skills-text-div" data-aos="fade-left">
-                    <h1 class="skills-heading">
-                        {{ ab.sectionTitle }}
-                    </h1>
-    
-                    <div class="social-media-div">
-
-                        @for (l of ab.skillLinks; track $index) {
-                            <a 
-                                [href]="l.link"
-                                target="_blank"
-                                rel="noopener noreferrer" 
-                                class="icon-button"
-                                [title]="l.name"
-                                >
-                        
-                                <div class="img-container" [ngStyle]="{'backgroundColor': l.backgroundColor}">
-                                    <img 
-                                        src="https://unpkg.com/simple-icons@v13/icons/{{ l.simpleIconName }}.svg"
-                                        />
-                                </div>
-                        
-                            </a>
-                        }
-                    </div>
-    
-                    <div>
-    
-                        @for (sl of ab.skillsList; track $index) {
-                            <p class="subTitle skills-text">
-                                ⚡ {{ sl }}
-                            </p>
-                        }
-    
-                    </div>
-                </div>
-            </div>
-        }
-
-
+        <div>
+          @for (sl of ab.skillsList; track $index) {
+          <p class="subTitle skills-text">⚡ {{ sl }}</p>
+          }
+        </div>
+      </div>
     </div>
+    }
+  </div>
+</div>
+
+
+
+
+
+<!--   *********************************   TOOLS AND Resource section *********************************************************************** -->
+
+<div class="skills-header-div my-8" data-aos="fade-up">
+  <h1 class="skills-header">Technologies and Tools</h1>
+</div>
+
+<div class="flex flex-wrap mt-8 flex flex-wrap justify-between">
+  <div
+    *ngFor="let tool of technologiesAndTools"
+    class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+    style="opacity: 1; transform: none"
+  >
+    <img
+      [src]="tool.imagePath"
+      [alt]="tool.name"
+      class="w-12"
+    />
+    <h4 class="text-md ml-4">{{ tool.name }}</h4>
+  </div>
+</div>
+
+
+<!--   *********************************   Testimonials section *********************************************************************** -->
+
+
+<div class="skills-header-div my-8" data-aos="fade-up">
+  <h1 class="skills-header">Feedback</h1>
+</div>
+
+<div
+  class="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+  <div
+    class="scroller relative z-20 w-screen overflow-hidden"
+    style="--animation-direction: reverse; --animation-duration: 80s;">
+    <ul
+      class="flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap animate-scroll hover:[animation-play-state:paused]">
+      <li
+        *ngFor="let feedback of feedbacks"
+        class="w-[90vw] max-w-full relative rounded-2xl border flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+        style="background:white;">
+        <blockquote>
+          <div aria-hidden="true"
+            class="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]">
+          </div>
+          <span class="relative z-20 leading-[1.6] skills-text">
+            {{ feedback.testimonial }}
+          </span>
+          <!-- <span class="absolute bottom-10 left-10 text-2xl skills-text"> my text here</span> -->
+        </blockquote>
+         <div class="absolute bottom-12 left-14 p-2 text-2xl ml-4 skills-text">
+          {{ feedback.teamMember }}
+        </div>
+        <div class="absolute bottom-7 left-16 text-lg !text-lg skills-text">
+          {{ feedback.role }} 
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>

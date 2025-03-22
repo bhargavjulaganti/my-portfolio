@@ -1,4 +1,4 @@
-<p align="center"> 
+fir<p align="center"> 
     <img src="public/assets/images/ng-master.png" align="center" height="150"></img>
 </p>
 
@@ -120,4 +120,13 @@ Happy Coding! 🎉
 
 # References 👏🏻
 
-- Some Design Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) and [Ashutosh Hathidara's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+- Some Design Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) 
+- [Ashutosh Hathidara's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+- [https://github.com/adrianhajdin/portfolio](https://minimal-portfolio-swart.vercel.app/#testimonials)
+- https://aakash-sharma.netlify.app/
+
+
+# References for adding technology and tools images 
+
+- https://www.vectorlogo.zone/
+- https://icon-sets.iconify.design/?category=Programming

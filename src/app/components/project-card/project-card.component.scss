@@ -33,13 +33,33 @@
         box-shadow: 0px 0px 20px 4px #c2ebff;
     }
 
+    // p.description-text {
+    //     display: -webkit-box;
+    //     -webkit-line-clamp: 4;
+    //     line-clamp: 4;
+    //     -webkit-box-orient: vertical;
+    //     overflow: hidden;
+    //     text-overflow: ellipsis;
+    //     height: fit-content;
+    // }
+
+    // p.description-text {
+    //     display: block; /* Changed from -webkit-box */
+    //     overflow: visible; /* Changed from hidden */
+    //     text-overflow: unset; /* Changed from ellipsis */
+    //     height: auto; /* Changed from fit-content */
+    //     -webkit-line-clamp: unset; /* Removed line clamping */
+    //     line-clamp: unset; /* Removed line clamping */
+    //     -webkit-box-orient: unset; /* Removed box orientation */
+    // }
+
     p.description-text {
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        height: fit-content;
+        display: block; /* Changed from -webkit-box */
+        overflow-y: auto; /* Allow vertical scrolling if text exceeds height */
+        text-overflow: unset; /* Changed from ellipsis */
+        height: 100px; /* Set a fixed height */
+        -webkit-line-clamp: unset; /* Removed line clamping */
+        line-clamp: unset; /* Removed line clamping */
+        -webkit-box-orient: unset; /* Removed box orientation */
     }
 }
